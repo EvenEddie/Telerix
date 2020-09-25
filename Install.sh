@@ -90,6 +90,7 @@ function install_applications()
 {
 echo "Installiere Asterisk..."
 sudo apt install asterisk "$1"
+sudo apt install asterisk-opus "$1"
 
 echo "Installiere mpg123 Player"
 sudo apt install mpg123 "$1"
